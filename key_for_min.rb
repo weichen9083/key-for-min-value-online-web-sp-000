@@ -6,10 +6,10 @@ def key_for_min_value(name_hash)
     return nil 
   else 
     x = ""
-    y = 10000000
+    y = 100000000
     
     name_hash.each do |key,value|
-      if value < y 
+      if value < y
         y = value 
         x = key 
       else 
