@@ -6,11 +6,11 @@ def key_for_min_value(name_hash)
     return nil 
   else 
     x = ""
-    y,z = hash.first
+    y = name_hash.values[0]
     
     name_hash.each do |key,value|
-      if value < z 
-        z = value 
+      if value < y
+        y = value 
         x = key 
       else 
       end 
